@@ -20,10 +20,10 @@ export const Route = createFileRoute("/shop")({
 
 const prices = [
   { id: "all", label: "Any price" },
-  { id: "25", label: "Under $25" },
-  { id: "50", label: "$25 – $50" },
-  { id: "100", label: "$50 – $100" },
-  { id: "100plus", label: "$100 and up" },
+  { id: "25", label: "Under ₹2,000" },
+  { id: "50", label: "₹2,000 – ₹4,000" },
+  { id: "100", label: "₹4,000 – ₹8,000" },
+  { id: "100plus", label: "₹8,000 and up" },
 ];
 
 const sortLabels: { id: SortKey; label: string }[] = [

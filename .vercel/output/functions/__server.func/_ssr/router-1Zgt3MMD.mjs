@@ -3,7 +3,7 @@ import { a as getArticle, l as isSort, o as getBySlug } from "./catalog-lAiNO47P
 import { C as useRouter, X as require_react, _ as Outlet, b as createRootRoute, f as Scripts, g as createRouter, p as HeadContent, v as lazyRouteComponent, w as require_jsx_runtime, y as createFileRoute } from "../_libs/@tanstack/react-router+[...].mjs";
 import { i as TriangleAlert } from "../_libs/lucide-react.mjs";
 import { a as union, i as string, n as number, r as object, t as literal } from "../_libs/zod.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-z2pbqChZ.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-1Zgt3MMD.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var __defProp = Object.defineProperty;
@@ -366,7 +366,7 @@ var Route$9 = createFileRoute("/")({
 	head: () => ({ meta: [{ title: "TinyHands — Soft things for small beginnings" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$9, "component")
 });
-var $$splitComponentImporter$8 = () => import("./about-y3SHvrod.mjs");
+var $$splitComponentImporter$8 = () => import("./about-CziqWwoV.mjs");
 var Route$8 = createFileRoute("/about")({
 	head: () => ({ meta: [{ title: "About — TinyHands" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$8, "component")
@@ -386,7 +386,7 @@ var Route$5 = createFileRoute("/checkout")({
 	head: () => ({ meta: [{ title: "Checkout — TinyHands" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$5, "component")
 });
-var $$splitComponentImporter$4 = () => import("./shop-C_uJhyRq.mjs");
+var $$splitComponentImporter$4 = () => import("./shop-C_JBECJ6.mjs");
 var Route$4 = createFileRoute("/shop")({
 	validateSearch: (search) => ({
 		q: typeof search.q === "string" ? search.q : "",
@@ -407,12 +407,12 @@ var Route$2 = createFileRoute("/journal/")({
 	head: () => ({ meta: [{ title: "Journal — TinyHands" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("../_slug-D9qfveg1.mjs");
+var $$splitComponentImporter$1 = () => import("../_slug-D7S5HgQL.mjs");
 var Route$1 = createFileRoute("/journal/$slug")({
 	head: ({ params }) => ({ meta: [{ title: `${getArticle(params.slug)?.title ?? "Journal"} — TinyHands` }] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("../_slug-DRMO66We.mjs");
+var $$splitComponentImporter = () => import("../_slug-CWNYS39n.mjs");
 var Route = createFileRoute("/product/$slug")({
 	head: ({ params }) => ({ meta: [{ title: `${getBySlug(params.slug)?.name ?? "Product"} — TinyHands` }] }),
 	component: lazyRouteComponent($$splitComponentImporter, "component")

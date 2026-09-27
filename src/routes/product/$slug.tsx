@@ -180,7 +180,7 @@ function ProductDetail({ product }: { product: Product }) {
           </div>
           <ul className="mt-8 grid gap-3 text-sm text-bark sm:grid-cols-3">
             <li className="flex items-center gap-2 rounded-2xl bg-sand/70 px-3 py-3">
-              <Truck className="size-4 shrink-0" /> Free over $75
+              <Truck className="size-4 shrink-0" /> Free over ₹4,999
             </li>
             <li className="flex items-center gap-2 rounded-2xl bg-sand/70 px-3 py-3">
               <RotateCcw className="size-4 shrink-0" /> 30-day returns

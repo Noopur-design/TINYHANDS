@@ -1,7 +1,7 @@
 import { m as shopSearch } from "./catalog-lAiNO47P.mjs";
 import { w as require_jsx_runtime, x as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { s as Shell } from "./shell-x-XvApxv.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/about-y3SHvrod.js
+//#region node_modules/.nitro/vite/services/ssr/assets/about-CziqWwoV.js
 var import_jsx_runtime = require_jsx_runtime();
 var SplitComponent = function AboutPage() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Shell, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -30,7 +30,7 @@ var SplitComponent = function AboutPage() {
 					children: "Shipping"
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "mt-3 text-bark leading-relaxed",
-					children: "Orders of $75 and over ship free inside the demo. Under that, shipping is a flat $8. This storefront doesn’t dispatch parcels — checkout saves an order on your device so you can see the full path."
+					children: "Orders of ₹4,999 and over ship free inside the demo. Under that, shipping is a flat ₹660. This storefront doesn’t dispatch parcels — checkout saves an order on your device so you can see the full path."
 				})]
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {

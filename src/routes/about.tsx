@@ -18,7 +18,7 @@ export const Route = createFileRoute("/about")({
           <section id="shipping" className="mt-10 scroll-mt-24">
             <h2 className="text-2xl font-semibold">Shipping</h2>
             <p className="mt-3 text-bark leading-relaxed">
-              Orders of $75 and over ship free inside the demo. Under that, shipping is a flat $8. This storefront doesn’t dispatch parcels — checkout saves an order on your device so you can see the full path.
+              Orders of ₹4,999 and over ship free inside the demo. Under that, shipping is a flat ₹660. This storefront doesn’t dispatch parcels — checkout saves an order on your device so you can see the full path.
             </p>
           </section>
           <section id="returns" className="mt-10 scroll-mt-24">

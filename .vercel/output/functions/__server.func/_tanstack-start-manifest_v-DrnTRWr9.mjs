@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-DxaiZgk_.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-DrnTRWr9.js
 var tsrStartManifest = () => ({ routes: {
 	__root__: {
 		filePath: "/home/user/tinyhands/src/routes/__root.tsx",
@@ -15,7 +15,7 @@ var tsrStartManifest = () => ({ routes: {
 			"/journal/"
 		],
 		preloads: [
-			"/assets/index-D-2oLoGF.js",
+			"/assets/index-BCfGFrGu.js",
 			"/assets/rolldown-runtime-CbXtAM7H.js",
 			"/assets/catalog-B07qJSYZ.js",
 			"/assets/preload-helper-BBxmtrb-.js"
@@ -23,7 +23,7 @@ var tsrStartManifest = () => ({ routes: {
 		scripts: [{ attrs: {
 			type: "module",
 			async: !0,
-			src: "/assets/index-D-2oLoGF.js"
+			src: "/assets/index-BCfGFrGu.js"
 		} }]
 	},
 	"/": {
@@ -38,7 +38,7 @@ var tsrStartManifest = () => ({ routes: {
 	"/about": {
 		filePath: "/home/user/tinyhands/src/routes/about.tsx",
 		children: void 0,
-		preloads: ["/assets/about-Ds3ja_Nm.js", "/assets/shell-CxSPj037.js"]
+		preloads: ["/assets/about-LtmPuNbO.js", "/assets/shell-CxSPj037.js"]
 	},
 	"/account": {
 		filePath: "/home/user/tinyhands/src/routes/account.tsx",
@@ -59,7 +59,7 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "/home/user/tinyhands/src/routes/shop.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/shop-9HbhRe38.js",
+			"/assets/shop--nudgV3s.js",
 			"/assets/shell-CxSPj037.js",
 			"/assets/product-card-BkCqr_uf.js"
 		]
@@ -76,13 +76,13 @@ var tsrStartManifest = () => ({ routes: {
 	"/journal/$slug": {
 		filePath: "/home/user/tinyhands/src/routes/journal/$slug.tsx",
 		children: void 0,
-		preloads: ["/assets/_slug-CAaCs23D.js", "/assets/shell-CxSPj037.js"]
+		preloads: ["/assets/_slug-CKJjKeMS.js", "/assets/shell-CxSPj037.js"]
 	},
 	"/product/$slug": {
 		filePath: "/home/user/tinyhands/src/routes/product/$slug.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/_slug-muCv0YPy.js",
+			"/assets/_slug-xT_h-Yeh.js",
 			"/assets/shell-CxSPj037.js",
 			"/assets/product-card-BkCqr_uf.js"
 		]

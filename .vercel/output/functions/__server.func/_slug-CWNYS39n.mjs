@@ -2,11 +2,11 @@ import { i as __toESM } from "./_runtime.mjs";
 import { d as offLabel, m as shopSearch, n as categoryMeta, o as getBySlug, p as relatedTo, u as money } from "./_ssr/catalog-lAiNO47P.mjs";
 import { X as require_react, w as require_jsx_runtime, x as Link } from "./_libs/@tanstack/react-router+[...].mjs";
 import { d as RotateCcw, f as Plus, l as ShieldCheck, m as Minus, r as Truck, v as Heart } from "./_libs/lucide-react.mjs";
-import { n as Route } from "./_ssr/router-z2pbqChZ.mjs";
+import { n as Route } from "./_ssr/router-1Zgt3MMD.mjs";
 import { n as toast } from "./_libs/sonner.mjs";
 import { c as Stars, l as cn, m as useShop, s as Shell } from "./_ssr/shell-x-XvApxv.mjs";
 import { t as ProductCard } from "./_ssr/product-card-4yWADkmF.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/_slug-DRMO66We.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_slug-CWNYS39n.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function ProductPage() {
@@ -212,7 +212,7 @@ function ProductDetail({ product }) {
 						children: [
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 								className: "flex items-center gap-2 rounded-2xl bg-sand/70 px-3 py-3",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Truck, { className: "size-4 shrink-0" }), " Free over $75"]
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Truck, { className: "size-4 shrink-0" }), " Free over ₹4,999"]
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 								className: "flex items-center gap-2 rounded-2xl bg-sand/70 px-3 py-3",
