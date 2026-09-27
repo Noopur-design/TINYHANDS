@@ -4,7 +4,7 @@ import { Shell } from "@/components/site/shell";
 import { useHasHydrated, useShop } from "@/store/shop";
 
 export const Route = createFileRoute("/account")({
-  head: () => ({ meta: [{ title: "Account — Lullora" }] }),
+  head: () => ({ meta: [{ title: "Account — TinyHands" }] }),
   component: function AccountPage() {
     const hydrated = useHasHydrated();
     const wishes = useShop((s) => s.wishlist.length);
@@ -14,7 +14,7 @@ export const Route = createFileRoute("/account")({
       <Shell>
         <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
           <p className="text-xs tracking-widest text-cocoa uppercase">This device</p>
-          <h1 className="mt-2 text-3xl font-semibold tracking-tight">Your Lullora</h1>
+          <h1 className="mt-2 text-3xl font-semibold tracking-tight">Your TinyHands</h1>
           <p className="mt-3 max-w-prose text-sm text-bark">
             You’re browsing as a guest. Your bag, wishlist and demo orders stay in this browser — there’s no account to sign into.
           </p>

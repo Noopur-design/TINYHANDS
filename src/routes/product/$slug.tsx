@@ -12,7 +12,7 @@ import { useShop } from "@/store/shop";
 
 export const Route = createFileRoute("/product/$slug")({
   head: ({ params }) => ({
-    meta: [{ title: `${getBySlug(params.slug)?.name ?? "Product"} — Lullora` }],
+    meta: [{ title: `${getBySlug(params.slug)?.name ?? "Product"} — TinyHands` }],
   }),
   component: ProductPage,
 });

@@ -3,7 +3,7 @@ import { articles } from "@/data/catalog";
 import { Shell } from "@/components/site/shell";
 
 export const Route = createFileRoute("/journal/")({
-  head: () => ({ meta: [{ title: "Journal — Lullora" }] }),
+  head: () => ({ meta: [{ title: "Journal — TinyHands" }] }),
   component: function JournalPage() {
     return (
       <Shell>

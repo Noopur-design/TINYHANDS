@@ -1,9 +1,9 @@
-import { d as offLabel } from "./catalog-BuNK_tRO.mjs";
+import { d as offLabel } from "./catalog-lAiNO47P.mjs";
 import { w as require_jsx_runtime, x as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { c as ShoppingBag, v as Heart } from "../_libs/lucide-react.mjs";
 import { n as toast } from "../_libs/sonner.mjs";
-import { a as PriceTag, c as Stars, l as cn, m as useShop, r as IconButton } from "./shell-CPOhcLFv.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/product-card-DpZLLu1n.js
+import { a as PriceTag, c as Stars, l as cn, m as useShop, r as IconButton } from "./shell-BZPnyvtR.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/product-card-ctCPyAeA.js
 var import_jsx_runtime = require_jsx_runtime();
 function ProductCard({ product, dense = false, className }) {
 	const wished = useShop((s) => s.wishlist.includes(product.id));

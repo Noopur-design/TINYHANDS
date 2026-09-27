@@ -1,7 +1,7 @@
-import { t as articles } from "./catalog-BuNK_tRO.mjs";
+import { t as articles } from "./catalog-lAiNO47P.mjs";
 import { w as require_jsx_runtime, x as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { s as Shell } from "./shell-CPOhcLFv.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/journal-wBKfkCaZ.js
+import { s as Shell } from "./shell-BZPnyvtR.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/journal-D9vzMRTV.js
 var import_jsx_runtime = require_jsx_runtime();
 var SplitComponent = function JournalPage() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Shell, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {

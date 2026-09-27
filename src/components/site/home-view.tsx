@@ -72,16 +72,16 @@ function Hero() {
       >
         <div className="grid md:min-h-[460px] md:grid-cols-2">
           <div key={slide.title} className="animate-rise relative z-10 flex flex-col justify-center px-6 py-10 md:px-12 md:py-16">
-            <p className="text-xs tracking-widest text-cocoa uppercase">Lullora</p>
+            <p className="text-xs tracking-widest text-cocoa uppercase">TinyHands</p>
             <h1 className="mt-3 max-w-md text-4xl font-semibold tracking-tight text-ink md:text-5xl">{slide.title}</h1>
             <p className="mt-4 max-w-sm text-base text-bark">{slide.subtitle}</p>
             <Link
               to="/shop"
               search={shopSearch(slide.search)}
-              className="mt-6 inline-flex h-11 w-fit items-center gap-2 rounded-full bg-paper px-5 text-sm font-medium text-ink lift"
+              className="group/cta mt-6 inline-flex h-12 w-fit items-center gap-2 rounded-full bg-bark px-6 text-sm font-medium text-ivory shadow-sm transition hover:-translate-y-0.5 hover:shadow-md active:translate-y-0 active:scale-95"
             >
               {slide.cta}
-              <ArrowRight className="size-4" />
+              <ArrowRight className="size-4 transition-transform group-hover/cta:translate-x-1" />
             </Link>
             <div className="mt-8">
               <Dots pages={slides.length} page={index} onChange={setIndex} />
@@ -101,22 +101,24 @@ function Hero() {
             ))}
           </div>
         </div>
-        <button
-          type="button"
-          aria-label="Previous slide"
-          onClick={() => setIndex((n) => (n - 1 + slides.length) % slides.length)}
-          className="absolute top-1/2 left-3 hidden size-11 -translate-y-1/2 items-center justify-center rounded-full bg-paper/90 text-bark md:inline-flex"
-        >
-          <ChevronLeft className="size-5" />
-        </button>
-        <button
-          type="button"
-          aria-label="Next slide"
-          onClick={() => setIndex((n) => (n + 1) % slides.length)}
-          className="absolute top-1/2 right-3 hidden size-11 -translate-y-1/2 items-center justify-center rounded-full bg-paper/90 text-bark md:inline-flex"
-        >
-          <ChevronRight className="size-5" />
-        </button>
+        <div className="absolute right-4 bottom-4 z-20 hidden gap-2 md:flex">
+          <button
+            type="button"
+            aria-label="Previous slide"
+            onClick={() => setIndex((n) => (n - 1 + slides.length) % slides.length)}
+            className="inline-flex size-11 items-center justify-center rounded-full bg-paper/90 text-bark shadow-sm backdrop-blur transition hover:bg-paper hover:-translate-y-0.5 active:scale-95"
+          >
+            <ChevronLeft className="size-5" />
+          </button>
+          <button
+            type="button"
+            aria-label="Next slide"
+            onClick={() => setIndex((n) => (n + 1) % slides.length)}
+            className="inline-flex size-11 items-center justify-center rounded-full bg-paper/90 text-bark shadow-sm backdrop-blur transition hover:bg-paper hover:-translate-y-0.5 active:scale-95"
+          >
+            <ChevronRight className="size-5" />
+          </button>
+        </div>
       </div>
     </section>
   );
@@ -273,17 +275,21 @@ function Promo({
       search={shopSearch(search)}
       className={cn("group relative flex min-h-56 flex-col justify-between overflow-hidden rounded-panel bg-beige p-5", className)}
     >
-      <div className="relative z-10 max-w-[16rem]">
-        <h3 className="text-2xl font-semibold tracking-tight text-ink">{title}</h3>
-        <span className="mt-4 inline-flex h-9 items-center rounded-full bg-paper px-4 text-xs font-medium text-ink">
-          {cta}
-        </span>
-      </div>
       <img
         src={image}
         alt=""
-        className="img-zoom absolute right-0 bottom-0 h-40 w-3/5 object-cover object-center sm:h-48"
+        className="img-zoom pointer-events-none absolute inset-y-0 right-0 h-full w-3/5 object-cover object-center"
       />
+      <span
+        aria-hidden
+        className="pointer-events-none absolute inset-0 bg-gradient-to-r from-beige via-beige/85 to-transparent"
+      />
+      <div className="relative z-10 flex h-full flex-col justify-between">
+        <h3 className="max-w-[11rem] text-2xl font-semibold tracking-tight text-ink">{title}</h3>
+        <span className="mt-4 inline-flex h-9 w-fit items-center rounded-full bg-paper px-4 text-xs font-medium text-ink shadow-sm transition group-hover:-translate-y-0.5">
+          {cta}
+        </span>
+      </div>
     </Link>
   );
 }

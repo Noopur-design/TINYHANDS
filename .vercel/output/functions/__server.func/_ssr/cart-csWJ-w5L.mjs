@@ -1,7 +1,7 @@
-import { m as shopSearch } from "./catalog-BuNK_tRO.mjs";
+import { m as shopSearch } from "./catalog-lAiNO47P.mjs";
 import { w as require_jsx_runtime, x as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { s as Shell, t as CartContents } from "./shell-CPOhcLFv.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/cart-5d-kwnkc.js
+import { s as Shell, t as CartContents } from "./shell-BZPnyvtR.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/cart-csWJ-w5L.js
 var import_jsx_runtime = require_jsx_runtime();
 var SplitComponent = function CartPage() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Shell, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {

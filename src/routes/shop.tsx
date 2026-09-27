@@ -14,7 +14,7 @@ export const Route = createFileRoute("/shop")({
     sort: isSort(search.sort) ? search.sort : "featured",
     price: typeof search.price === "string" ? search.price : "all",
   }),
-  head: () => ({ meta: [{ title: "Shop — Lullora" }] }),
+  head: () => ({ meta: [{ title: "Shop — TinyHands" }] }),
   component: ShopPage,
 });
 
@@ -53,7 +53,7 @@ function ShopPage() {
   return (
     <Shell>
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
-        <p className="text-xs tracking-widest text-mist uppercase">Lullora</p>
+        <p className="text-xs tracking-widest text-mist uppercase">TinyHands</p>
         <h1 className="mt-1 text-3xl font-semibold tracking-tight md:text-4xl">{title}</h1>
         {search.cat !== "all" && search.cat in categoryMeta && (
           <p className="mt-2 max-w-xl text-sm text-mist">{categoryMeta[search.cat as CategoryId].blurb}</p>

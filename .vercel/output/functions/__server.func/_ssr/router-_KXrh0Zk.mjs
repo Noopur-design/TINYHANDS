@@ -1,9 +1,9 @@
 import { i as __toESM } from "../_runtime.mjs";
-import { a as getArticle, l as isSort, o as getBySlug } from "./catalog-BuNK_tRO.mjs";
+import { a as getArticle, l as isSort, o as getBySlug } from "./catalog-lAiNO47P.mjs";
 import { C as useRouter, X as require_react, _ as Outlet, b as createRootRoute, f as Scripts, g as createRouter, p as HeadContent, v as lazyRouteComponent, w as require_jsx_runtime, y as createFileRoute } from "../_libs/@tanstack/react-router+[...].mjs";
 import { i as TriangleAlert } from "../_libs/lucide-react.mjs";
 import { a as union, i as string, n as number, r as object, t as literal } from "../_libs/zod.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-D8CfqxaX.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-_KXrh0Zk.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var __defProp = Object.defineProperty;
@@ -307,8 +307,8 @@ function PreviewHostBridge() {
 	}, [router]);
 	return null;
 }
-var styles_default = "/assets/styles-CaYMMlO-.css";
-var APP_NAME = "Lullora";
+var styles_default = "/assets/styles-DR8g9iOt.css";
+var APP_NAME = "TinyHands";
 var Route$10 = createRootRoute({
 	head: () => ({
 		meta: [
@@ -320,7 +320,7 @@ var Route$10 = createRootRoute({
 			{ title: APP_NAME },
 			{
 				name: "description",
-				content: "Lullora is a baby boutique for knitwear, strollers, soft toys and the quiet essentials of early days."
+				content: "TinyHands is a baby boutique for knitwear, strollers, soft toys and the quiet essentials of early days."
 			},
 			{
 				name: "theme-color",
@@ -361,32 +361,32 @@ var Route$10 = createRootRoute({
 		] })]
 	})
 });
-var $$splitComponentImporter$9 = () => import("./routes-BJiVRUW3.mjs");
+var $$splitComponentImporter$9 = () => import("./routes-Y8i8hYFh.mjs");
 var Route$9 = createFileRoute("/")({
-	head: () => ({ meta: [{ title: "Lullora — Soft things for small beginnings" }] }),
+	head: () => ({ meta: [{ title: "TinyHands — Soft things for small beginnings" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$9, "component")
 });
-var $$splitComponentImporter$8 = () => import("./about-OXbZ_9Dz.mjs");
+var $$splitComponentImporter$8 = () => import("./about-CWanNUlq.mjs");
 var Route$8 = createFileRoute("/about")({
-	head: () => ({ meta: [{ title: "About — Lullora" }] }),
+	head: () => ({ meta: [{ title: "About — TinyHands" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$8, "component")
 });
-var $$splitComponentImporter$7 = () => import("./account-B1ErzqrA.mjs");
+var $$splitComponentImporter$7 = () => import("./account-BYl5vDw-.mjs");
 var Route$7 = createFileRoute("/account")({
-	head: () => ({ meta: [{ title: "Account — Lullora" }] }),
+	head: () => ({ meta: [{ title: "Account — TinyHands" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$7, "component")
 });
-var $$splitComponentImporter$6 = () => import("./cart-5d-kwnkc.mjs");
+var $$splitComponentImporter$6 = () => import("./cart-csWJ-w5L.mjs");
 var Route$6 = createFileRoute("/cart")({
-	head: () => ({ meta: [{ title: "Your bag — Lullora" }] }),
+	head: () => ({ meta: [{ title: "Your bag — TinyHands" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$6, "component")
 });
-var $$splitComponentImporter$5 = () => import("./checkout-BF3EyPXB.mjs");
+var $$splitComponentImporter$5 = () => import("./checkout-CeGs6EXG.mjs");
 var Route$5 = createFileRoute("/checkout")({
-	head: () => ({ meta: [{ title: "Checkout — Lullora" }] }),
+	head: () => ({ meta: [{ title: "Checkout — TinyHands" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$5, "component")
 });
-var $$splitComponentImporter$4 = () => import("./shop-DMJ6bXa2.mjs");
+var $$splitComponentImporter$4 = () => import("./shop-DCKCOGMW.mjs");
 var Route$4 = createFileRoute("/shop")({
 	validateSearch: (search) => ({
 		q: typeof search.q === "string" ? search.q : "",
@@ -394,27 +394,27 @@ var Route$4 = createFileRoute("/shop")({
 		sort: isSort(search.sort) ? search.sort : "featured",
 		price: typeof search.price === "string" ? search.price : "all"
 	}),
-	head: () => ({ meta: [{ title: "Shop — Lullora" }] }),
+	head: () => ({ meta: [{ title: "Shop — TinyHands" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-var $$splitComponentImporter$3 = () => import("./wishlist-jjGyheJ-.mjs");
+var $$splitComponentImporter$3 = () => import("./wishlist-BKFPJDiO.mjs");
 var Route$3 = createFileRoute("/wishlist")({
-	head: () => ({ meta: [{ title: "Wishlist — Lullora" }] }),
+	head: () => ({ meta: [{ title: "Wishlist — TinyHands" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-var $$splitComponentImporter$2 = () => import("./journal-wBKfkCaZ.mjs");
+var $$splitComponentImporter$2 = () => import("./journal-D9vzMRTV.mjs");
 var Route$2 = createFileRoute("/journal/")({
-	head: () => ({ meta: [{ title: "Journal — Lullora" }] }),
+	head: () => ({ meta: [{ title: "Journal — TinyHands" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("../_slug-Dto8fFlw.mjs");
+var $$splitComponentImporter$1 = () => import("../_slug-BfpJab61.mjs");
 var Route$1 = createFileRoute("/journal/$slug")({
-	head: ({ params }) => ({ meta: [{ title: `${getArticle(params.slug)?.title ?? "Journal"} — Lullora` }] }),
+	head: ({ params }) => ({ meta: [{ title: `${getArticle(params.slug)?.title ?? "Journal"} — TinyHands` }] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("../_slug-BJut9fPF.mjs");
+var $$splitComponentImporter = () => import("../_slug-BdEkjDMG.mjs");
 var Route = createFileRoute("/product/$slug")({
-	head: ({ params }) => ({ meta: [{ title: `${getBySlug(params.slug)?.name ?? "Product"} — Lullora` }] }),
+	head: ({ params }) => ({ meta: [{ title: `${getBySlug(params.slug)?.name ?? "Product"} — TinyHands` }] }),
 	component: lazyRouteComponent($$splitComponentImporter, "component")
 });
 var IndexRoute = Route$9.update({

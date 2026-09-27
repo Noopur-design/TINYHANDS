@@ -4,7 +4,7 @@ import { Shell } from "@/components/site/shell";
 
 export const Route = createFileRoute("/journal/$slug")({
   head: ({ params }) => ({
-    meta: [{ title: `${getArticle(params.slug)?.title ?? "Journal"} — Lullora` }],
+    meta: [{ title: `${getArticle(params.slug)?.title ?? "Journal"} — TinyHands` }],
   }),
   component: function ArticlePage() {
     const { slug } = Route.useParams();

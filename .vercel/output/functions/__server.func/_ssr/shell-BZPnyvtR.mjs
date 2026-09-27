@@ -1,16 +1,16 @@
 import { i as __toESM } from "../_runtime.mjs";
-import { m as shopSearch, s as getProduct, u as money } from "./catalog-BuNK_tRO.mjs";
+import { m as shopSearch, s as getProduct, u as money } from "./catalog-lAiNO47P.mjs";
 import { S as useNavigate, X as require_react, m as useRouterState, w as require_jsx_runtime, x as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { _ as Mail, a as Trash2, c as ShoppingBag, d as RotateCcw, f as Plus, g as MapPin, h as Menu, l as ShieldCheck, m as Minus, n as User, o as Star, p as Phone, r as Truck, t as X, u as Search, v as Heart } from "../_libs/lucide-react.mjs";
 import { t as Toaster } from "../_libs/sonner.mjs";
 import { n as create, t as persist } from "../_libs/zustand.mjs";
 import { t as clsx } from "../_libs/clsx.mjs";
 import { t as twMerge } from "../_libs/tailwind-merge.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/shell-CPOhcLFv.js
+//#region node_modules/.nitro/vite/services/ssr/assets/shell-BZPnyvtR.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var SHIPPING_FLAT = 8;
-var FREE_OVER = 75;
+var FREE_OVER = 60;
 function shippingFor(subtotal) {
 	if (subtotal <= 0) return 0;
 	return subtotal >= FREE_OVER ? 0 : SHIPPING_FLAT;
@@ -87,7 +87,7 @@ var useShop = create()(persist((set, get) => ({
 		return id;
 	}
 }), {
-	name: "lullora-shop",
+	name: "tinyhands-shop",
 	partialize: (state) => ({
 		lines: state.lines,
 		wishlist: state.wishlist,
@@ -305,7 +305,7 @@ function CartContents({ onNavigate }) {
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "mt-2 text-xs text-mist",
-						children: subtotal >= 75 ? "You’ve got complimentary shipping." : `Add ${money(75 - subtotal)} for complimentary shipping.`
+						children: subtotal >= 60 ? "You’ve got complimentary shipping." : `Add ${money(60 - subtotal)} for complimentary shipping.`
 					})
 				]
 			}),
@@ -391,7 +391,7 @@ function Newsletter() {
 			setError("Enter a real email so we know where to write.");
 			return;
 		}
-		localStorage.setItem("lullora-news", email);
+		localStorage.setItem("tinyhands-news", email);
 		setError("");
 		setDone(true);
 	}
@@ -453,9 +453,9 @@ function FooterPanel() {
 			className: "absolute top-0 left-1/2 flex size-20 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-line bg-paper md:left-16 md:translate-x-0",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 				className: "text-center font-display text-xl leading-none text-bark",
-				children: ["L", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+				children: ["T", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 					className: "mt-1 block font-sans text-xs tracking-widest text-mist",
-					children: "LULLORA"
+					children: "TINYHANDS"
 				})]
 			})
 		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -469,11 +469,11 @@ function FooterPanel() {
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 							className: "flex items-center gap-2",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { className: "size-4 shrink-0" }), " hello@lullora.com"]
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { className: "size-4 shrink-0" }), " hello@tinyhands.com"]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 							className: "flex items-center gap-2",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { className: "size-4 shrink-0" }), " +1 (800) 555-0148"]
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { className: "size-4 shrink-0" }), " +91 98200 40148"]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 							className: "flex items-center gap-2",
@@ -552,7 +552,7 @@ function FooterPanel() {
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 							className: "flex items-center gap-2",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Truck, { className: "size-4" }), " Free shipping over $75"]
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Truck, { className: "size-4" }), " Free shipping over ₹4,999"]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 							className: "flex items-center gap-2",
@@ -579,7 +579,7 @@ function Footer() {
 			className: "mx-auto max-w-7xl px-4 pt-10 pb-8 sm:px-6",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FooterPanel, {}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 				className: "mt-6 text-center text-xs text-mist",
-				children: "© 2026 Lullora. Quiet things for early days."
+				children: "© 2026 TinyHands. Quiet things for early days."
 			})]
 		})
 	});
@@ -636,13 +636,13 @@ function Logo() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
 		to: "/",
 		className: "flex items-center gap-2 text-ink",
-		"aria-label": "Lullora home",
+		"aria-label": "TinyHands home",
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 			className: "flex size-9 items-center justify-center rounded-full border border-cocoa/50 font-display text-lg leading-none text-bark",
 			children: "L"
 		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 			className: "font-display text-2xl tracking-wide",
-			children: "Lullora"
+			children: "TinyHands"
 		})]
 	});
 }

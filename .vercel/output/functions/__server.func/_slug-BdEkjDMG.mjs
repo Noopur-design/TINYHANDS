@@ -1,12 +1,12 @@
 import { i as __toESM } from "./_runtime.mjs";
-import { d as offLabel, m as shopSearch, n as categoryMeta, o as getBySlug, p as relatedTo, u as money } from "./_ssr/catalog-BuNK_tRO.mjs";
+import { d as offLabel, m as shopSearch, n as categoryMeta, o as getBySlug, p as relatedTo, u as money } from "./_ssr/catalog-lAiNO47P.mjs";
 import { X as require_react, w as require_jsx_runtime, x as Link } from "./_libs/@tanstack/react-router+[...].mjs";
 import { d as RotateCcw, f as Plus, l as ShieldCheck, m as Minus, r as Truck, v as Heart } from "./_libs/lucide-react.mjs";
-import { n as Route } from "./_ssr/router-D8CfqxaX.mjs";
+import { n as Route } from "./_ssr/router-_KXrh0Zk.mjs";
 import { n as toast } from "./_libs/sonner.mjs";
-import { c as Stars, l as cn, m as useShop, s as Shell } from "./_ssr/shell-CPOhcLFv.mjs";
-import { t as ProductCard } from "./_ssr/product-card-DpZLLu1n.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/_slug-BJut9fPF.js
+import { c as Stars, l as cn, m as useShop, s as Shell } from "./_ssr/shell-BZPnyvtR.mjs";
+import { t as ProductCard } from "./_ssr/product-card-ctCPyAeA.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/_slug-BdEkjDMG.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function ProductPage() {

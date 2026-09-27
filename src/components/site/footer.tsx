@@ -14,7 +14,7 @@ export function Newsletter() {
       setError("Enter a real email so we know where to write.");
       return;
     }
-    localStorage.setItem("lullora-news", email);
+    localStorage.setItem("tinyhands-news", email);
     setError("");
     setDone(true);
   }
@@ -62,8 +62,8 @@ export function FooterPanel() {
     <div className="relative rounded-panel bg-sand px-6 pt-16 pb-10 md:px-10">
       <div className="absolute top-0 left-1/2 flex size-20 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-line bg-paper md:left-16 md:translate-x-0">
         <span className="text-center font-display text-xl leading-none text-bark">
-          L
-          <span className="mt-1 block font-sans text-xs tracking-widest text-mist">LULLORA</span>
+          T
+          <span className="mt-1 block font-sans text-xs tracking-widest text-mist">TINYHANDS</span>
         </span>
       </div>
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -71,10 +71,10 @@ export function FooterPanel() {
           <h3 className="text-sm font-semibold tracking-wide text-ink">Contact</h3>
           <ul className="mt-3 space-y-2 text-sm text-bark">
             <li className="flex items-center gap-2">
-              <Mail className="size-4 shrink-0" /> hello@lullora.com
+              <Mail className="size-4 shrink-0" /> hello@tinyhands.com
             </li>
             <li className="flex items-center gap-2">
-              <Phone className="size-4 shrink-0" /> +1 (800) 555-0148
+              <Phone className="size-4 shrink-0" /> +91 98200 40148
             </li>
             <li className="flex items-center gap-2">
               <MapPin className="size-4 shrink-0" /> Mon–Sat, 9 to 6
@@ -123,7 +123,7 @@ export function FooterPanel() {
               <ShieldCheck className="size-4" /> Secure demo checkout
             </li>
             <li className="flex items-center gap-2">
-              <Truck className="size-4" /> Free shipping over $75
+              <Truck className="size-4" /> Free shipping over ₹4,999
             </li>
             <li className="flex items-center gap-2">
               <RotateCcw className="size-4" /> 30-day returns
@@ -150,7 +150,7 @@ export function Footer() {
     <footer className="mt-8 border-t border-transparent">
       <div className="mx-auto max-w-7xl px-4 pt-10 pb-8 sm:px-6">
         <FooterPanel />
-        <p className="mt-6 text-center text-xs text-mist">© 2026 Lullora. Quiet things for early days.</p>
+        <p className="mt-6 text-center text-xs text-mist">© 2026 TinyHands. Quiet things for early days.</p>
       </div>
     </footer>
   );

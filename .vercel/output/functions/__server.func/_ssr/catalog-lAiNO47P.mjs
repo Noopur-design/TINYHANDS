@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/catalog-BuNK_tRO.js
+//#region node_modules/.nitro/vite/services/ssr/assets/catalog-lAiNO47P.js
 var sortSet = /* @__PURE__ */ new Set([
 	"featured",
 	"new",
@@ -496,12 +496,14 @@ var heroSlides = [
 		search: { cat: "dolls" }
 	}
 ];
+var USD_TO_INR = 83;
 function money(n) {
-	return new Intl.NumberFormat("en-US", {
+	const inr = Math.round(n * USD_TO_INR / 10) * 10;
+	return new Intl.NumberFormat("en-IN", {
 		style: "currency",
-		currency: "USD",
+		currency: "INR",
 		maximumFractionDigits: 0
-	}).format(n);
+	}).format(inr);
 }
 function offLabel(price, compare) {
 	if (!compare || compare <= price) return null;

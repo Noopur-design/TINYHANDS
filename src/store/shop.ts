@@ -45,8 +45,10 @@ type ShopState = {
   placeOrder: (info: { name: string; email: string; city: string; address: string }) => string | null;
 };
 
+// Amounts are in the catalog's base units; money() renders them in INR.
+// FREE_OVER 60 → ≈ ₹4,999 free-shipping threshold shown in the footer.
 const SHIPPING_FLAT = 8;
-const FREE_OVER = 75;
+const FREE_OVER = 60;
 
 export function shippingFor(subtotal: number) {
   if (subtotal <= 0) return 0;
@@ -125,7 +127,7 @@ export const useShop = create<ShopState>()(
       },
     }),
     {
-      name: "lullora-shop",
+      name: "tinyhands-shop",
       partialize: (state) => ({
         lines: state.lines,
         wishlist: state.wishlist,

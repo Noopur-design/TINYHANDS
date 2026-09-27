@@ -3,7 +3,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Lullora";
+const APP_NAME = "TinyHands";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -14,7 +14,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Lullora is a baby boutique for knitwear, strollers, soft toys and the quiet essentials of early days.",
+          "TinyHands is a baby boutique for knitwear, strollers, soft toys and the quiet essentials of early days.",
       },
       { name: "theme-color", content: "#F6F1EB" },
     ],

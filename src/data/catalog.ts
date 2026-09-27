@@ -508,12 +508,17 @@ export const heroSlides = [
   },
 ] as const;
 
+// Catalog prices are authored in USD; convert to INR for an Indian storefront.
+// All price display routes through money(), so cart and product totals stay consistent.
+const USD_TO_INR = 83;
+
 export function money(n: number) {
-  return new Intl.NumberFormat("en-US", {
+  const inr = Math.round((n * USD_TO_INR) / 10) * 10;
+  return new Intl.NumberFormat("en-IN", {
     style: "currency",
-    currency: "USD",
+    currency: "INR",
     maximumFractionDigits: 0,
-  }).format(n);
+  }).format(inr);
 }
 
 export function offLabel(price: number, compare?: number) {

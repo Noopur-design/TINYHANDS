@@ -7,7 +7,7 @@ import { Shell } from "@/components/site/shell";
 import { useHasHydrated, useShop } from "@/store/shop";
 
 export const Route = createFileRoute("/wishlist")({
-  head: () => ({ meta: [{ title: "Wishlist — Lullora" }] }),
+  head: () => ({ meta: [{ title: "Wishlist — TinyHands" }] }),
   component: function WishlistPage() {
     const hydrated = useHasHydrated();
     const ids = useShop((s) => s.wishlist);

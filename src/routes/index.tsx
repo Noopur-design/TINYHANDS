@@ -4,7 +4,7 @@ import { Shell } from "@/components/site/shell";
 
 export const Route = createFileRoute("/")({
   head: () => ({
-    meta: [{ title: "Lullora — Soft things for small beginnings" }],
+    meta: [{ title: "TinyHands — Soft things for small beginnings" }],
   }),
   component: function Home() {
     return (

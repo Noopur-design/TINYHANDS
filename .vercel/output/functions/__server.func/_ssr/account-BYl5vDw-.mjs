@@ -1,7 +1,7 @@
-import { u as money } from "./catalog-BuNK_tRO.mjs";
+import { u as money } from "./catalog-lAiNO47P.mjs";
 import { w as require_jsx_runtime, x as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { m as useShop, p as useHasHydrated, s as Shell } from "./shell-CPOhcLFv.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/account-B1ErzqrA.js
+import { m as useShop, p as useHasHydrated, s as Shell } from "./shell-BZPnyvtR.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/account-BYl5vDw-.js
 var import_jsx_runtime = require_jsx_runtime();
 var SplitComponent = function AccountPage() {
 	const hydrated = useHasHydrated();
@@ -17,7 +17,7 @@ var SplitComponent = function AccountPage() {
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
 				className: "mt-2 text-3xl font-semibold tracking-tight",
-				children: "Your Lullora"
+				children: "Your TinyHands"
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 				className: "mt-3 max-w-prose text-sm text-bark",

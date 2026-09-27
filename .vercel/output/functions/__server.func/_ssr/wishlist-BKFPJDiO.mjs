@@ -1,9 +1,9 @@
-import { f as products, m as shopSearch } from "./catalog-BuNK_tRO.mjs";
+import { f as products, m as shopSearch } from "./catalog-lAiNO47P.mjs";
 import { w as require_jsx_runtime, x as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { v as Heart } from "../_libs/lucide-react.mjs";
-import { m as useShop, p as useHasHydrated, s as Shell } from "./shell-CPOhcLFv.mjs";
-import { t as ProductCard } from "./product-card-DpZLLu1n.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/wishlist-jjGyheJ-.js
+import { m as useShop, p as useHasHydrated, s as Shell } from "./shell-BZPnyvtR.mjs";
+import { t as ProductCard } from "./product-card-ctCPyAeA.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/wishlist-BKFPJDiO.js
 var import_jsx_runtime = require_jsx_runtime();
 var SplitComponent = function WishlistPage() {
 	const hydrated = useHasHydrated();

@@ -4,7 +4,7 @@ import { Shell } from "@/components/site/shell";
 import { shopSearch } from "@/data/search";
 
 export const Route = createFileRoute("/cart")({
-  head: () => ({ meta: [{ title: "Your bag — Lullora" }] }),
+  head: () => ({ meta: [{ title: "Your bag — TinyHands" }] }),
   component: function CartPage() {
     return (
       <Shell>

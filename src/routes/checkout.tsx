@@ -7,7 +7,7 @@ import { Shell } from "@/components/site/shell";
 import { shippingFor, subtotalOf, useHasHydrated, useShop } from "@/store/shop";
 
 export const Route = createFileRoute("/checkout")({
-  head: () => ({ meta: [{ title: "Checkout — Lullora" }] }),
+  head: () => ({ meta: [{ title: "Checkout — TinyHands" }] }),
   component: CheckoutPage,
 });
 

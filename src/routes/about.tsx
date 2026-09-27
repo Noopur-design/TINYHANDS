@@ -3,7 +3,7 @@ import { shopSearch } from "@/data/search";
 import { Shell } from "@/components/site/shell";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({ meta: [{ title: "About — Lullora" }] }),
+  head: () => ({ meta: [{ title: "About — TinyHands" }] }),
   component: function AboutPage() {
     return (
       <Shell>
@@ -12,7 +12,7 @@ export const Route = createFileRoute("/about")({
           <section id="story" className="mt-8 scroll-mt-24">
             <h2 className="text-2xl font-semibold">Our story</h2>
             <p className="mt-3 text-bark leading-relaxed">
-              Lullora started as a short list: a bear that sits, a bag that closes, a knit that doesn’t itch. We still buy that way. The palette stays warm, the hardware stays quiet, and nothing in the shop needs a character license to be wanted.
+              TinyHands started as a short list: a bear that sits, a bag that closes, a knit that doesn’t itch. We still buy that way. The palette stays warm, the hardware stays quiet, and nothing in the shop needs a character license to be wanted.
             </p>
           </section>
           <section id="shipping" className="mt-10 scroll-mt-24">
