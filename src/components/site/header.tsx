@@ -22,7 +22,7 @@ function Logo() {
   return (
     <Link to="/" className="flex items-center gap-2 text-ink" aria-label="TinyHands home">
       <span className="flex size-9 items-center justify-center rounded-full border border-cocoa/50 font-display text-lg leading-none text-bark">
-        L
+        T
       </span>
       <span className="font-display text-2xl tracking-wide">TinyHands</span>
     </Link>

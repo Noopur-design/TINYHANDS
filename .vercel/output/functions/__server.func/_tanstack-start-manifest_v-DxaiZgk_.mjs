@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-WK0Kjgtx.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-DxaiZgk_.js
 var tsrStartManifest = () => ({ routes: {
 	__root__: {
 		filePath: "/home/user/tinyhands/src/routes/__root.tsx",
@@ -15,7 +15,7 @@ var tsrStartManifest = () => ({ routes: {
 			"/journal/"
 		],
 		preloads: [
-			"/assets/index-B1RaC2qh.js",
+			"/assets/index-D-2oLoGF.js",
 			"/assets/rolldown-runtime-CbXtAM7H.js",
 			"/assets/catalog-B07qJSYZ.js",
 			"/assets/preload-helper-BBxmtrb-.js"
@@ -23,74 +23,74 @@ var tsrStartManifest = () => ({ routes: {
 		scripts: [{ attrs: {
 			type: "module",
 			async: !0,
-			src: "/assets/index-B1RaC2qh.js"
+			src: "/assets/index-D-2oLoGF.js"
 		} }]
 	},
 	"/": {
 		filePath: "/home/user/tinyhands/src/routes/index.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/routes-CDAPpkN-.js",
-			"/assets/shell-BMfxZBwJ.js",
-			"/assets/product-card-DgDg6AcC.js"
+			"/assets/routes-DAj4T_UM.js",
+			"/assets/shell-CxSPj037.js",
+			"/assets/product-card-BkCqr_uf.js"
 		]
 	},
 	"/about": {
 		filePath: "/home/user/tinyhands/src/routes/about.tsx",
 		children: void 0,
-		preloads: ["/assets/about-DkVcXRT3.js", "/assets/shell-BMfxZBwJ.js"]
+		preloads: ["/assets/about-Ds3ja_Nm.js", "/assets/shell-CxSPj037.js"]
 	},
 	"/account": {
 		filePath: "/home/user/tinyhands/src/routes/account.tsx",
 		children: void 0,
-		preloads: ["/assets/account-DBZHe7sw.js", "/assets/shell-BMfxZBwJ.js"]
+		preloads: ["/assets/account-7bu1sY7D.js", "/assets/shell-CxSPj037.js"]
 	},
 	"/cart": {
 		filePath: "/home/user/tinyhands/src/routes/cart.tsx",
 		children: void 0,
-		preloads: ["/assets/cart-BnZv1NJv.js", "/assets/shell-BMfxZBwJ.js"]
+		preloads: ["/assets/cart-gQTmO_vq.js", "/assets/shell-CxSPj037.js"]
 	},
 	"/checkout": {
 		filePath: "/home/user/tinyhands/src/routes/checkout.tsx",
 		children: void 0,
-		preloads: ["/assets/checkout-uMNOYjK_.js", "/assets/shell-BMfxZBwJ.js"]
+		preloads: ["/assets/checkout-Dom701sl.js", "/assets/shell-CxSPj037.js"]
 	},
 	"/shop": {
 		filePath: "/home/user/tinyhands/src/routes/shop.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/shop-BFwJyBvA.js",
-			"/assets/shell-BMfxZBwJ.js",
-			"/assets/product-card-DgDg6AcC.js"
+			"/assets/shop-9HbhRe38.js",
+			"/assets/shell-CxSPj037.js",
+			"/assets/product-card-BkCqr_uf.js"
 		]
 	},
 	"/wishlist": {
 		filePath: "/home/user/tinyhands/src/routes/wishlist.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/wishlist-B6pXFJPk.js",
-			"/assets/shell-BMfxZBwJ.js",
-			"/assets/product-card-DgDg6AcC.js"
+			"/assets/wishlist-DfyK-N0v.js",
+			"/assets/shell-CxSPj037.js",
+			"/assets/product-card-BkCqr_uf.js"
 		]
 	},
 	"/journal/$slug": {
 		filePath: "/home/user/tinyhands/src/routes/journal/$slug.tsx",
 		children: void 0,
-		preloads: ["/assets/_slug-AzQ5-Hm2.js", "/assets/shell-BMfxZBwJ.js"]
+		preloads: ["/assets/_slug-CAaCs23D.js", "/assets/shell-CxSPj037.js"]
 	},
 	"/product/$slug": {
 		filePath: "/home/user/tinyhands/src/routes/product/$slug.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/_slug-DqcUj8XP.js",
-			"/assets/shell-BMfxZBwJ.js",
-			"/assets/product-card-DgDg6AcC.js"
+			"/assets/_slug-muCv0YPy.js",
+			"/assets/shell-CxSPj037.js",
+			"/assets/product-card-BkCqr_uf.js"
 		]
 	},
 	"/journal/": {
 		filePath: "/home/user/tinyhands/src/routes/journal/index.tsx",
 		children: void 0,
-		preloads: ["/assets/journal-OHbOEhwn.js", "/assets/shell-BMfxZBwJ.js"]
+		preloads: ["/assets/journal-BX0fv5x3.js", "/assets/shell-CxSPj037.js"]
 	}
 } });
 //#endregion

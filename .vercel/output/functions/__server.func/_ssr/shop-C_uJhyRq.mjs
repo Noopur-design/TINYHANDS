@@ -2,10 +2,10 @@ import { i as __toESM } from "../_runtime.mjs";
 import { i as filterProducts, l as isSort, m as shopSearch, n as categoryMeta } from "./catalog-lAiNO47P.mjs";
 import { S as useNavigate, X as require_react, w as require_jsx_runtime, x as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { s as SlidersHorizontal } from "../_libs/lucide-react.mjs";
-import { i as Route$4 } from "./router-_KXrh0Zk.mjs";
-import { l as cn, s as Shell } from "./shell-BZPnyvtR.mjs";
-import { t as ProductCard } from "./product-card-ctCPyAeA.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/shop-DCKCOGMW.js
+import { i as Route$4 } from "./router-z2pbqChZ.mjs";
+import { l as cn, s as Shell } from "./shell-x-XvApxv.mjs";
+import { t as ProductCard } from "./product-card-4yWADkmF.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/shop-C_uJhyRq.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var prices = [

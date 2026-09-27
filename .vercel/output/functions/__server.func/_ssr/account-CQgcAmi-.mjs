@@ -1,7 +1,7 @@
 import { u as money } from "./catalog-lAiNO47P.mjs";
 import { w as require_jsx_runtime, x as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { m as useShop, p as useHasHydrated, s as Shell } from "./shell-BZPnyvtR.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/account-BYl5vDw-.js
+import { m as useShop, p as useHasHydrated, s as Shell } from "./shell-x-XvApxv.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/account-CQgcAmi-.js
 var import_jsx_runtime = require_jsx_runtime();
 var SplitComponent = function AccountPage() {
 	const hydrated = useHasHydrated();

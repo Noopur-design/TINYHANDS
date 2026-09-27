@@ -6,7 +6,7 @@ import { t as Toaster } from "../_libs/sonner.mjs";
 import { n as create, t as persist } from "../_libs/zustand.mjs";
 import { t as clsx } from "../_libs/clsx.mjs";
 import { t as twMerge } from "../_libs/tailwind-merge.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/shell-BZPnyvtR.js
+//#region node_modules/.nitro/vite/services/ssr/assets/shell-x-XvApxv.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var SHIPPING_FLAT = 8;
@@ -639,7 +639,7 @@ function Logo() {
 		"aria-label": "TinyHands home",
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 			className: "flex size-9 items-center justify-center rounded-full border border-cocoa/50 font-display text-lg leading-none text-bark",
-			children: "L"
+			children: "T"
 		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 			className: "font-display text-2xl tracking-wide",
 			children: "TinyHands"
