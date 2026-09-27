@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Lullora — Soft things for small beginnings",
+      "hasCanvas": false,
+      "bodyTextLen": 2114,
+      "bodyTextHash": "8b527a714442dc5345b4ef5f56082c41edb0975513bcff34c02b35fc13883f4c",
+      "bodyTextPrefix": "Skip to content Search products L Lullora Account Home New arriv",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Lullora — Soft things for small beginnings",
+      "hasCanvas": false,
+      "bodyTextLen": 1998,
+      "bodyTextHash": "470746d10531876aaa608b8ec03b4fb8b8a1a94d01f535d93d5ee85a75041f7d",
+      "bodyTextPrefix": "Skip to content L Lullora Search products LULLORA Dress your lit",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
