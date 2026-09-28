@@ -4,7 +4,7 @@ import { X as require_react, w as require_jsx_runtime, x as Link } from "../_lib
 import { b as ChevronLeft, x as ArrowRight, y as ChevronRight } from "../_libs/lucide-react.mjs";
 import { i as Newsletter, l as cn, n as Dots, o as SectionTitle, s as Shell } from "./shell-x-XvApxv.mjs";
 import { t as ProductCard } from "./product-card-4yWADkmF.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-B3g2Pm7y.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-DzJh3HwN.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function usePaged(items, size) {
@@ -92,13 +92,16 @@ function Hero() {
 							})
 						})
 					]
-				}, slide.title), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				}, slide.title), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "relative min-h-64 md:min-h-full",
-					children: slides.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+					children: [slides.map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 						src: item.image,
 						alt: i === index ? item.alt : "",
 						className: cn("absolute inset-0 h-full w-full object-cover transition-opacity duration-700", i === index ? "opacity-100" : "opacity-0")
-					}, item.image))
+					}, item.image)), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+						"aria-hidden": true,
+						className: "pointer-events-none absolute inset-y-0 left-0 z-10 hidden w-1/3 bg-gradient-to-r from-beige to-transparent md:block"
+					})]
 				})]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "absolute right-4 bottom-4 z-20 hidden gap-2 md:flex",
@@ -120,58 +123,33 @@ function Hero() {
 	});
 }
 function CategoryRail() {
-	const scroller = (0, import_react.useRef)(null);
-	const scrollBy = (dir) => scroller.current?.scrollBy({
-		left: dir * 240,
-		behavior: "smooth"
-	});
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
 		className: "py-12",
 		"aria-label": "Shop by category",
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(SectionTitle, {
 			title: "Shop by category",
 			subtitle: "Six places to start, none of them loud."
-		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-			className: "relative",
-			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-					type: "button",
-					"aria-label": "Scroll categories back",
-					onClick: () => scrollBy(-1),
-					className: "absolute top-8 left-0 z-10 hidden size-11 items-center justify-center rounded-full border border-line bg-paper md:inline-flex",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronLeft, { className: "size-5" })
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					ref: scroller,
-					className: "no-scrollbar flex gap-5 overflow-x-auto scroll-smooth px-1 py-2 md:px-12",
-					children: circleCategories.map((id) => {
-						const cat = categoryMeta[id];
-						return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
-							to: "/shop",
-							search: shopSearch({ cat: id }),
-							className: "flex w-24 shrink-0 snap-start flex-col items-center gap-3",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-								className: "flex size-20 items-center justify-center overflow-hidden rounded-full border border-line bg-paper transition hover:-translate-y-0.5",
-								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-									src: cat.image,
-									alt: "",
-									className: "h-full w-full object-cover"
-								})
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-								className: "text-sm text-bark",
-								children: cat.name
-							})]
-						}, id);
-					})
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-					type: "button",
-					"aria-label": "Scroll categories forward",
-					onClick: () => scrollBy(1),
-					className: "absolute top-8 right-0 z-10 hidden size-11 items-center justify-center rounded-full border border-line bg-paper md:inline-flex",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronRight, { className: "size-5" })
-				})
-			]
+		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "no-scrollbar flex gap-5 overflow-x-auto scroll-smooth py-2 md:justify-between md:gap-4 md:overflow-visible",
+			children: circleCategories.map((id) => {
+				const cat = categoryMeta[id];
+				return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
+					to: "/shop",
+					search: shopSearch({ cat: id }),
+					className: "group flex w-24 shrink-0 snap-start flex-col items-center gap-3 md:w-auto md:flex-1",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+						className: "flex size-20 items-center justify-center overflow-hidden rounded-full border border-line bg-paper transition group-hover:-translate-y-0.5 md:size-24",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+							src: cat.image,
+							alt: "",
+							className: "h-full w-full object-cover transition duration-500 group-hover:scale-105"
+						})
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+						className: "text-sm text-bark",
+						children: cat.name
+					})]
+				}, id);
+			})
 		})]
 	});
 }
@@ -315,11 +293,11 @@ function Promo({ title, cta, image, search, className }) {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 				src: image,
 				alt: "",
-				className: "img-zoom pointer-events-none absolute inset-y-0 right-0 h-full w-3/5 object-cover object-center"
+				className: "img-zoom img-fade-l pointer-events-none absolute inset-y-0 right-0 h-full w-4/5 object-cover object-center"
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 				"aria-hidden": true,
-				className: "pointer-events-none absolute inset-0 bg-gradient-to-r from-beige via-beige/85 to-transparent"
+				className: "pointer-events-none absolute inset-0 bg-gradient-to-r from-beige via-beige/40 to-transparent"
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "relative z-10 flex h-full flex-col justify-between",

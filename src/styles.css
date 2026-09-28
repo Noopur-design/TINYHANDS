@@ -60,6 +60,12 @@
   }
 }
 
+/* Fade an image's left edge to transparent so it blends into the panel behind. */
+@utility img-fade-l {
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 42%);
+  mask-image: linear-gradient(to right, transparent 0%, #000 42%);
+}
+
 @keyframes rise {
   from {
     opacity: 0;

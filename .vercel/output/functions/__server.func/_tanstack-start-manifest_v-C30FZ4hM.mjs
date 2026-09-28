@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-DrnTRWr9.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-C30FZ4hM.js
 var tsrStartManifest = () => ({ routes: {
 	__root__: {
 		filePath: "/home/user/tinyhands/src/routes/__root.tsx",
@@ -15,7 +15,7 @@ var tsrStartManifest = () => ({ routes: {
 			"/journal/"
 		],
 		preloads: [
-			"/assets/index-BCfGFrGu.js",
+			"/assets/index-BhyJtuhc.js",
 			"/assets/rolldown-runtime-CbXtAM7H.js",
 			"/assets/catalog-B07qJSYZ.js",
 			"/assets/preload-helper-BBxmtrb-.js"
@@ -23,14 +23,14 @@ var tsrStartManifest = () => ({ routes: {
 		scripts: [{ attrs: {
 			type: "module",
 			async: !0,
-			src: "/assets/index-BCfGFrGu.js"
+			src: "/assets/index-BhyJtuhc.js"
 		} }]
 	},
 	"/": {
 		filePath: "/home/user/tinyhands/src/routes/index.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/routes-DAj4T_UM.js",
+			"/assets/routes-BKf2tQnE.js",
 			"/assets/shell-CxSPj037.js",
 			"/assets/product-card-BkCqr_uf.js"
 		]
@@ -59,7 +59,7 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "/home/user/tinyhands/src/routes/shop.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/shop--nudgV3s.js",
+			"/assets/shop-DcyXG_V_.js",
 			"/assets/shell-CxSPj037.js",
 			"/assets/product-card-BkCqr_uf.js"
 		]
@@ -76,13 +76,13 @@ var tsrStartManifest = () => ({ routes: {
 	"/journal/$slug": {
 		filePath: "/home/user/tinyhands/src/routes/journal/$slug.tsx",
 		children: void 0,
-		preloads: ["/assets/_slug-CKJjKeMS.js", "/assets/shell-CxSPj037.js"]
+		preloads: ["/assets/_slug-DBHNq1Aq.js", "/assets/shell-CxSPj037.js"]
 	},
 	"/product/$slug": {
 		filePath: "/home/user/tinyhands/src/routes/product/$slug.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/_slug-xT_h-Yeh.js",
+			"/assets/_slug-X5PNZozJ.js",
 			"/assets/shell-CxSPj037.js",
 			"/assets/product-card-BkCqr_uf.js"
 		]

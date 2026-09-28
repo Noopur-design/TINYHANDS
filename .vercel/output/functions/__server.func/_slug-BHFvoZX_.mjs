@@ -1,8 +1,8 @@
 import { a as getArticle } from "./_ssr/catalog-lAiNO47P.mjs";
 import { w as require_jsx_runtime, x as Link } from "./_libs/@tanstack/react-router+[...].mjs";
-import { r as Route$1 } from "./_ssr/router-1Zgt3MMD.mjs";
+import { r as Route$1 } from "./_ssr/router-Cw25ER5x.mjs";
 import { s as Shell } from "./_ssr/shell-x-XvApxv.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/_slug-D7S5HgQL.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_slug-BHFvoZX_.js
 var import_jsx_runtime = require_jsx_runtime();
 var SplitComponent = function ArticlePage() {
 	const { slug } = Route$1.useParams();

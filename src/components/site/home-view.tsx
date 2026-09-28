@@ -99,6 +99,11 @@ function Hero() {
                 )}
               />
             ))}
+            {/* Soft-blend the photo into the beige copy panel (desktop split only). */}
+            <span
+              aria-hidden
+              className="pointer-events-none absolute inset-y-0 left-0 z-10 hidden w-1/3 bg-gradient-to-r from-beige to-transparent md:block"
+            />
           </div>
         </div>
         <div className="absolute right-4 bottom-4 z-20 hidden gap-2 md:flex">
@@ -125,46 +130,27 @@ function Hero() {
 }
 
 function CategoryRail() {
-  const scroller = useRef<HTMLDivElement>(null);
-  const scrollBy = (dir: number) => scroller.current?.scrollBy({ left: dir * 240, behavior: "smooth" });
   return (
     <section className="py-12" aria-label="Shop by category">
       <SectionTitle title="Shop by category" subtitle="Six places to start, none of them loud." />
-      <div className="relative">
-        <button
-          type="button"
-          aria-label="Scroll categories back"
-          onClick={() => scrollBy(-1)}
-          className="absolute top-8 left-0 z-10 hidden size-11 items-center justify-center rounded-full border border-line bg-paper md:inline-flex"
-        >
-          <ChevronLeft className="size-5" />
-        </button>
-        <div ref={scroller} className="no-scrollbar flex gap-5 overflow-x-auto scroll-smooth px-1 py-2 md:px-12">
-          {circleCategories.map((id) => {
-            const cat = categoryMeta[id];
-            return (
-              <Link
-                key={id}
-                to="/shop"
-                search={shopSearch({ cat: id })}
-                className="flex w-24 shrink-0 snap-start flex-col items-center gap-3"
-              >
-                <span className="flex size-20 items-center justify-center overflow-hidden rounded-full border border-line bg-paper transition hover:-translate-y-0.5">
-                  <img src={cat.image} alt="" className="h-full w-full object-cover" />
-                </span>
-                <span className="text-sm text-bark">{cat.name}</span>
-              </Link>
-            );
-          })}
-        </div>
-        <button
-          type="button"
-          aria-label="Scroll categories forward"
-          onClick={() => scrollBy(1)}
-          className="absolute top-8 right-0 z-10 hidden size-11 items-center justify-center rounded-full border border-line bg-paper md:inline-flex"
-        >
-          <ChevronRight className="size-5" />
-        </button>
+      {/* Full-width row on desktop (evenly spread); horizontal scroll only on mobile. */}
+      <div className="no-scrollbar flex gap-5 overflow-x-auto scroll-smooth py-2 md:justify-between md:gap-4 md:overflow-visible">
+        {circleCategories.map((id) => {
+          const cat = categoryMeta[id];
+          return (
+            <Link
+              key={id}
+              to="/shop"
+              search={shopSearch({ cat: id })}
+              className="group flex w-24 shrink-0 snap-start flex-col items-center gap-3 md:w-auto md:flex-1"
+            >
+              <span className="flex size-20 items-center justify-center overflow-hidden rounded-full border border-line bg-paper transition group-hover:-translate-y-0.5 md:size-24">
+                <img src={cat.image} alt="" className="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+              </span>
+              <span className="text-sm text-bark">{cat.name}</span>
+            </Link>
+          );
+        })}
       </div>
     </section>
   );
@@ -278,11 +264,11 @@ function Promo({
       <img
         src={image}
         alt=""
-        className="img-zoom pointer-events-none absolute inset-y-0 right-0 h-full w-3/5 object-cover object-center"
+        className="img-zoom img-fade-l pointer-events-none absolute inset-y-0 right-0 h-full w-4/5 object-cover object-center"
       />
       <span
         aria-hidden
-        className="pointer-events-none absolute inset-0 bg-gradient-to-r from-beige via-beige/85 to-transparent"
+        className="pointer-events-none absolute inset-0 bg-gradient-to-r from-beige via-beige/40 to-transparent"
       />
       <div className="relative z-10 flex h-full flex-col justify-between">
         <h3 className="max-w-[11rem] text-2xl font-semibold tracking-tight text-ink">{title}</h3>
